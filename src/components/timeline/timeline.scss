@@ -1,0 +1,80 @@
+.timelineContainer {
+  position: relative;
+  width: 100%;
+  padding: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 150px;
+}
+
+.timelineLine {
+  position: absolute;
+  top: 0; // Align the top of the line with the top of the container
+  bottom: 0; // Align the bottom of the line with the bottom of the container
+  width: 3px;
+  background-color: yellow;
+  left: 100px; // Position the line to the right of the logos
+  margin-left: 20px;
+}
+
+.timelineItemContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: absolute;
+  left: 0; // Align logos to the left of the container
+  background-color: #f0f0f0;
+}
+
+.timelineItem {
+  color: lightgray;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px; // Adjust so the text does not overlap the timeline line
+  padding-right: 20px; // Add padding to the right if necessary
+
+  &.education {
+    color: #a6ff00bb;
+  }
+
+  &.work {
+    color: #28a5a7;
+  }
+
+  .title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .subtitle,
+  .duration {
+    font-style: italic;
+  }
+}
+
+.detailsBox {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  display: none; // Hide by default, will be shown on hover
+  position: absolute;
+  left: 170px; // Position to the right of the timeline line
+  width: calc(100% - 170px - 20px); // Full width minus logo and line position, and right padding
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.timelineItemContainer:hover .detailsBox {
+  display: block; // Show details box on hover
+}

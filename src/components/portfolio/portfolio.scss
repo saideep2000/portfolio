@@ -1,0 +1,142 @@
+@import "../../app.scss";
+
+.portfolio {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: orange;
+    font-size: 36px;
+
+    @include mobile {
+      padding-top: calc(100vh - 100px);
+      font-size: 24px;
+    }
+
+    .progressBar {
+      height: 10px;
+      background-color: white;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .wrapper {
+      max-width: 1400px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+      .imageContainer {
+        flex: 1;
+        height: 50%;
+        position: relative;
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          box-shadow: inset 0 0 23px 3px rgba(0, 0, 0, 0.75);
+          pointer-events: none; // Ensure clicks pass through
+        }
+
+        @include mobile {
+          width: 100%;
+          max-height: 300px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: fill;
+
+          @include mobile {
+            object-fit: contain;
+          }
+        }
+
+        .dots {
+          position: absolute;
+          bottom: 10px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: white;
+            cursor: pointer;
+            
+            &.active {
+              background-color: orange;
+            }
+          }
+        }
+      }
+
+      .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @include mobile {
+          transform: none !important;
+          padding: 10px;
+          align-items: center;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 72px;
+
+          @include mobile {
+            font-size: 36px;
+          }
+        }
+
+        p {
+          color: gray;
+          font-size: 20px;
+
+          @include mobile {
+            font-size: 16px;
+          }
+        }
+
+        button {
+          background-color: orange;
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 200px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
