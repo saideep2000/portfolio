@@ -16,20 +16,23 @@ const Navbar = () => {
           Saideep Portfolio
         </motion.span>
         <div className="social">
-          <a href="https://www.facebook.com/saideep.samineni.7">
+          <a href="https://www.facebook.com/saideep.samineni.7" target="_blank" rel="noopener noreferrer">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="https://www.instagram.com/saideep_chowdary_/">
+          <a href="https://www.instagram.com/saideep_chowdary_/" target="_blank" rel="noopener noreferrer">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <img src="/youtube.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/saideep-samineni/">
+          <a href="https://www.linkedin.com/in/saideep-samineni/" target="_blank" rel="noopener noreferrer">
             <img src="/linkedin-logo.png" alt="" />
           </a>
-          <a href="https://github.com/saideep2000">
+          <a href="https://github.com/saideep2000" target="_blank" rel="noopener noreferrer">
             <img src="/github.webp" alt="" />
+          </a>
+          <a href="https://leetcode.com/saideepsamineni/" target="_blank" rel="noopener noreferrer">
+            <img src="/leetcode.webp" alt="" />
           </a>
         </div>
       </div>
