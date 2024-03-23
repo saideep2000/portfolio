@@ -3,12 +3,12 @@ name: Auto Assign to Project(s)
 on:
   issues:
     types: [opened, labeled]
-  pull_request:
+  pull_request_target:
     types: [opened, labeled]
   issue_comment:
     types: [created]
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
 jobs:
   assign_one_project:
@@ -28,4 +28,4 @@ jobs:
         contains(github.event.pull_request.labels.*.name, 'bug')
       with:
         project: 'https://github.com/users/saideep2000/projects/1'
-        column_name: 'Backlog'
+        column_name: 'Labeled'
