@@ -25,7 +25,7 @@ const Hero = () => {
   const handleButtonClick = (message) => toast(message);
 
   const handleDownloadClick = () => {
-    handleButtonClick('Please check my LinkedIn!')
+    handleButtonClick('Check it in my LinkedIn!')
     // handleButtonClick('Resume Downloaded!');
   
     // const link = document.createElement("a");
@@ -66,7 +66,7 @@ const Hero = () => {
       <div className="wrapper">
         <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
           <motion.h2 variants={textVariants}>SAIDEEP SAMINENI</motion.h2>
-          <motion.h1 variants={textVariants}>Full Stack and Software Developer</motion.h1>
+          <motion.h1 variants={textVariants}>Software Engineer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button 
             variants={textVariants} 
