@@ -51,7 +51,7 @@ const Timeline = () => {
     },
     {
       title: "Teaching Assistant - Software Engineer",
-      subtitle: "SHIASH , Chennai, India",
+      subtitle: "Northeastern University, Boston, MA, USA",
       duration: "Jan 2024 – May 2024",
       isEducation: false,
       // skills: "Skills: Spring Boot, AWS, PostgreSQL, Redis, Docker, WebSocket",
