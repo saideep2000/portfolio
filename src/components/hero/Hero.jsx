@@ -25,14 +25,15 @@ const Hero = () => {
   const handleButtonClick = (message) => toast(message);
 
   const handleDownloadClick = () => {
-    handleButtonClick('Resume Downloaded!');
+    handleButtonClick('Please check my LinkedIn!')
+    // handleButtonClick('Resume Downloaded!');
   
-    const link = document.createElement("a");
-    link.href = "/Saideep_Samineni_Resume.pdf";
-    link.download = "Saideep_Samineni_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // const link = document.createElement("a");
+    // link.href = "/Saideep_Samineni_Resume.pdf";
+    // link.download = "Saideep_Samineni_Resume.pdf";
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
   };
 
   const handleDownloadTranscriptClick = () => {
