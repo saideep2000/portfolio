@@ -50,22 +50,37 @@ const Timeline = () => {
 
     },
     {
-      title: "Backend Engineer - Intern",
+      title: "Teaching Assistant - Software Engineer",
       subtitle: "SHIASH , Chennai, India",
-      duration: "Oct 2021 – Mar 2022",
+      duration: "Jan 2024 – May 2024",
       isEducation: false,
-      skills: "Skills: Spring Boot, AWS, PostgreSQL, Redis, Docker, WebSocket",
-      details: "Contribution : I led the development of a scalable e-commerce platform, optimizing API performance with a microservices architecture and advanced caching. Implementing a CI/CD pipeline with Docker and Jenkins, I reduced deployment times by 84%, enabling faster market responsiveness. My enhancements to AWS infrastructure and rigorous JUnit testing achieved 99.7% uptime and a 93% first-time deployment success rate, solidifying the platform's industry-leading reliability.",
+      // skills: "Skills: Spring Boot, AWS, PostgreSQL, Redis, Docker, WebSocket",
+      skills: "",
+      details: "",
+      // details: "Contribution : I led the development of a scalable e-commerce platform, optimizing API performance with a microservices architecture and advanced caching. Implementing a CI/CD pipeline with Docker and Jenkins, I reduced deployment times by 84%, enabling faster market responsiveness. My enhancements to AWS infrastructure and rigorous JUnit testing achieved 99.7% uptime and a 93% first-time deployment success rate, solidifying the platform's industry-leading reliability.",
+      logo : "/northeastern-logo.svg"
+    },
+    {
+      title: "Software Engineer",
+      subtitle: "SHIASH , Chennai, India",
+      duration: "Sep 2021 – Dec 2022",
+      isEducation: false,
+      // skills: "Skills: Spring Boot, AWS, PostgreSQL, Redis, Docker, WebSocket",
+      skills: "",
+      details: "",
+      // details: "Contribution : I led the development of a scalable e-commerce platform, optimizing API performance with a microservices architecture and advanced caching. Implementing a CI/CD pipeline with Docker and Jenkins, I reduced deployment times by 84%, enabling faster market responsiveness. My enhancements to AWS infrastructure and rigorous JUnit testing achieved 99.7% uptime and a 93% first-time deployment success rate, solidifying the platform's industry-leading reliability.",
       logo : "/shiash_logo.png"
     },
 
     {
-      title: "Full Stack Engineer – Remote Intern",
+      title: "Software Engineer – Remote Intern",
       subtitle: "Sri Sigma Technologies, Toronto, Canada",
-      duration: "Jan 2021 – Aug 2021",
+      duration: "Jan 2021 – Jun 2021",
       isEducation: false,
-      skills: "Skills: React, Node.js, AWS, RESTful APIs, Jest, TypeScript",
-      details: "Contributions: During my stint at Sri Sigma Technologies, I contributed to building an EdTech website, leveraging React, Node.js, and AWS to craft a seamless digital learning experience. I led API development, boosting data efficiency by 40%, and improved user interfaces with React, reducing errors significantly. My efforts in optimizing API endpoints cut loading times by over half, marking a period of substantial professional development in creating scalable, user-focused web applications.",
+      // skills: "Skills: React, Node.js, AWS, RESTful APIs, Jest, TypeScript",
+      skills: "",
+      details: "",
+      // details: "Contributions: During my stint at Sri Sigma Technologies, I contributed to building an EdTech website, leveraging React, Node.js, and AWS to craft a seamless digital learning experience. I led API development, boosting data efficiency by 40%, and improved user interfaces with React, reducing errors significantly. My efforts in optimizing API endpoints cut loading times by over half, marking a period of substantial professional development in creating scalable, user-focused web applications.",
       logo : "/sri_sigma_logo.jpg"
     },
 
