@@ -1,6 +1,6 @@
 // import Test from "./Test";
 import "./app.scss";
-import Cloud from "./components/cloudprojects/cloud";
+import Cloud from "./components/cloudprojects/Cloud";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
