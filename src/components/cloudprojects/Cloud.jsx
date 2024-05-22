@@ -15,6 +15,13 @@ const Cloud = () => {
 
     const cards = [
         {
+            title: "2048-game EKS & Kubernetes",
+            description: "This guide outlines deploying the 2048 game on AWS EKS, secure IAM setup and VPC. Using CLI and kubectl for effective Kubernetes management.",
+            info: "Learn More",
+            img: "/cloud/2048-eks-kubernetes.png",
+            link: "https://saideepsamineni.notion.site/Kubernetes-End-to-End-project-on-EKS-aa16e3fa69944f74b3732689127c5d8d"
+        },
+        {
             title: "VPC Architecture Guide",
             description: "Detailed walkthrough on building a production-ready VPC, showcasing best practices for security and scalability.",
             info: "Learn More",
@@ -35,6 +42,7 @@ const Cloud = () => {
             img: "/cloud/aws-cost-optimization.png",
             link: "https://saideepsamineni.notion.site/AWS-Cost-Optimisation-7fecb31aa0ba4454b63f33625211ceec?pvs=4"
         },
+        
     ];
 
     const certification = {
