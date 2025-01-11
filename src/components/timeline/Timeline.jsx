@@ -40,6 +40,15 @@ const Timeline = () => {
 
   const timelineData = [
     {
+      title: "Software Engineer",
+      subtitle: "Swapt , Boston, USA",
+      duration: "Aug 2024 – Dec 2024",
+      isEducation: false,
+      skills: "",
+      details: "",
+      logo : "/swapt.png"
+    },
+    {
       title: "Master of Science in Computer Science",
       subtitle: "Northeastern University, Boston, MA, USA",
       duration: "Jan 2023 - Present",
@@ -63,7 +72,7 @@ const Timeline = () => {
     {
       title: "Software Engineer",
       subtitle: "SHIASH , Chennai, India",
-      duration: "Sep 2021 – Dec 2022",
+      duration: "May 2021 – Dec 2022",
       isEducation: false,
       // skills: "Skills: Spring Boot, AWS, PostgreSQL, Redis, Docker, WebSocket",
       skills: "",
@@ -71,19 +80,6 @@ const Timeline = () => {
       // details: "Contribution : I led the development of a scalable e-commerce platform, optimizing API performance with a microservices architecture and advanced caching. Implementing a CI/CD pipeline with Docker and Jenkins, I reduced deployment times by 84%, enabling faster market responsiveness. My enhancements to AWS infrastructure and rigorous JUnit testing achieved 99.7% uptime and a 93% first-time deployment success rate, solidifying the platform's industry-leading reliability.",
       logo : "/shiash_logo.png"
     },
-
-    {
-      title: "Software Engineer – Remote Intern",
-      subtitle: "Sri Sigma Technologies, Toronto, Canada",
-      duration: "Jan 2021 – Jun 2021",
-      isEducation: false,
-      // skills: "Skills: React, Node.js, AWS, RESTful APIs, Jest, TypeScript",
-      skills: "",
-      details: "",
-      // details: "Contributions: During my stint at Sri Sigma Technologies, I contributed to building an EdTech website, leveraging React, Node.js, and AWS to craft a seamless digital learning experience. I led API development, boosting data efficiency by 40%, and improved user interfaces with React, reducing errors significantly. My efforts in optimizing API endpoints cut loading times by over half, marking a period of substantial professional development in creating scalable, user-focused web applications.",
-      logo : "/sri_sigma_logo.jpg"
-    },
-
     {
       title: "Master of Technology in Integrated Software Engineering",
       subtitle: "Vellore Institute of Technology, India",
