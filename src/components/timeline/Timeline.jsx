@@ -83,7 +83,7 @@ const Timeline = () => {
     {
       title: "Master of Technology in Integrated Software Engineering",
       subtitle: "Vellore Institute of Technology, India",
-      duration: "Aug 2017 - Sep 2022",
+      duration: "Aug 2017 - May 2021",
       isEducation: true,
       grade : "Grade : 9.34",
       details: "Courses : Cloud Computing, Software Configuration Management, Mobile Application Development, Operating Systems, Data Analytics and Artificial Intelligence",
